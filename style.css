@@ -1,0 +1,70 @@
+/* Set the background color of the entire screen to light brown */
+body {
+    background-color: #d2b48c; 
+    margin: 0; 
+    padding: 0; 
+    background-image: url(pic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style for the entire form container with a transparent background */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dba9a9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7); /* Set the background color to a transparent white */
+}
+
+/* Style for the form header */
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Change this background color as desired */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change this hover background color as desired */
+}
+
+/* Style for error messages (optional) */
+.alert {
+    color: #d9534f;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
